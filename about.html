@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pathway-About Us</title>
+
+    <!------------ favicon link ------------>
+    <link rel="icon" href="favicon/favicon (1).ico" />
+
+    <!--------- font awesome link -------->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <!--------- google fonts ------------>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!------------ bootstrap css link -------------->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+
+    <!--------- custom css link  ---------->
+    <link rel="stylesheet" href="Css/style.css" />
+  </head>
+  <body>
+    <!------------ navbar ----------->
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#"
+          ><img src="./images/logo-03.png" alt=""
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <!-- <span class="navbar-toggler-icon"></span> -->
+          <i
+            class="fa fa-align-right navbar-toggler-icon"
+            aria-hidden="true"
+          ></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html">home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">about us</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                courses
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <a class="dropdown-item" href="course.html">all courses</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="education.html">education</a>
+                </li>
+                <li><a class="dropdown-item" href="career.html">career</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="admission.html">admission</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="institute.html">institues</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">contact</a>
+            </li>
+          </ul>
+
+          <button class="btn nav-button" type="submit">apply now</button>
+        </div>
+      </div>
+    </nav>
+    <!------------ navbar ends ----------->
+
+    <!-- about us -->
+
+    <section class="about-us-banner text-center">
+      <div class="container">
+        <h1 class="text-capitalize text-white">about us</h1>
+        <p class="text-white mt-2">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui iusto
+          ipsa consequatur perferendis sed, corporis voluptates quia
+          consequuntur hic maxime debitis aliquid nesciunt soluta suscipit.
+        </p>
+      </div>
+    </section>
+
+    <section class="About-accordian">
+      <div class="container">
+        <h1>About Us</h1>
+
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo"
+                aria-expanded="false"
+                aria-controls="collapseTwo"
+              >
+                Education
+              </button>
+            </h2>
+            <div
+              id="collapseTwo"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingTwo"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <strong
+                  >Education is one of the basic necessities of life. It is
+                  directly related to learning and our overall development.
+                  Education has a very wide meaning; it not only educates you in
+                  your classroom but also encourages you to learn from your
+                  environment. Learning is an education in the real
+                  sense.</strong
+                >
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseThree"
+                aria-expanded="false"
+                aria-controls="collapseThree"
+              >
+                Career
+              </button>
+            </h2>
+            <div
+              id="collapseThree"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingThree"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <strong
+                  >Career is a very important thing in one's life. Whatever
+                  career path you choose to follow, it will impact your life
+                  greatly. Your career will define your status in a society in
+                  addition to your lifestyle. In other words, your career will
+                  determine your social circle and relationships.</strong
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="clear"></div> -->
+      </div>
+    </section>
+
+    <section class="about-events text-center">
+      <h2 class="text-capitalize">our upcoming events</h2>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-6">
+            <img src="./images/e.jpg" alt="" />
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <img src="./images/active-clubs-and-orgs.jpg" alt="" />
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <img src="./images/activities-fair-2016.jpeg" alt="" />
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <img src="./images/leading-a-club.jpg" alt="" />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-12 text-center">
+            <button class="bg text-capitalize">
+              <a href="#">see all upcoming events</a>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="home-testimonial about-testimonial">
+      <div class="container">
+        <div class="row">
+          <h2 class="text-capitalize text-center">meet our toppers</h2>
+        </div>
+
+        <div class="row">
+          <div
+            id="carouselExampleIndicators"
+            class="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-indicators home-student-carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active home-carousel-item-student">
+                <img src="./images/i-1.png" class="img-fluid" alt="..." />
+                <p>
+                  Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Ex
+                  Delectus Ducimus Dignissimos Pariatur. Amet Sed Distinctio
+                  Earum Dolorum Nulla.
+                </p>
+
+                <h3 class="text-capitalize">srikanta goswami</h3>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+              </div>
+              <div class="carousel-item home-carousel-item-student">
+                <img src="./images/i-4.png" class="img-fluid" alt="..." />
+
+                <p>
+                  Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Ex
+                  Delectus Ducimus Dignissimos Pariatur. Amet Sed Distinctio
+                  Earum Dolorum Nulla.
+                </p>
+                <h3 class="text-capitalize">david byer</h3>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star-half" aria-hidden="true"></i>
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- about us ends -->
+
+    <!------------     footer  -------------->
+
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 text-center">
+            <img src="./images/logo-03.png" alt="" />
+          </div>
+          <div class="col-sm-12 text-center">
+            <span class="footer-links footer-links-top-1-1">
+              <a class="footer-links-top-1" href="#"> home </a></span
+            >
+            <span class="footer-links footer-links-top-2-2">
+              <a class="footer-links-top-2" href="#"> courses </a></span
+            >
+            <span class="footer-links footer-links-top-3-3">
+              <a class="footer-links-top-3" href="#"> admission </a></span
+            >
+            <span class="footer-links footer-links-top-4-4">
+              <a class="footer-links-top-4" href="#"> institues </a></span
+            >
+            <span class="footer-links"> <a href="#"> contact </a></span>
+          </div>
+          <div class="col-sm-12 text-center">
+            <a
+              title="facebook"
+              href="#"
+              data-bs-toggle="tooltip"
+              data-bs-placement="bottom"
+            >
+              <i class="fa fa-facebook" aria-hidden="true"></i
+            ></a>
+            <a
+              title="twitter"
+              href="#"
+              data-bs-toggle="tooltip"
+              data-bs-placement="bottom"
+            >
+              <i class="fa fa-twitter" aria-hidden="true"></i
+            ></a>
+            <a
+              title="instagram"
+              href="#"
+              data-bs-toggle="tooltip"
+              data-bs-placement="bottom"
+            >
+              <i class="fa fa-instagram" aria-hidden="true"></i
+            ></a>
+            <a
+              title="email"
+              href="#"
+              data-bs-toggle="tooltip"
+              data-bs-placement="bottom"
+            >
+              <i class="fa fa-envelope" aria-hidden="true"></i
+            ></a>
+            <a
+              title="youtube"
+              href="#"
+              data-bs-toggle="tooltip"
+              data-bs-placement="bottom"
+            >
+              <i class="fa fa-youtube-play" aria-hidden="true"></i
+            ></a>
+          </div>
+          <div class="col-sm-12 text-center">
+            <p class="lead">
+              Created By <span> Ejob India Students Team ,2023 </span> | All
+              Rights Reserved!
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!------------     footer ends  -------------->
+
+    <!---------------bootstrap js bundle  ------------------>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-------------- tooltip js code -------------->
+    <script>
+      var tooltipTriggerList = [].slice.call(
+        document.querySelectorAll('[data-bs-toggle="tooltip"]')
+      );
+      var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+        return new bootstrap.Tooltip(tooltipTriggerEl);
+      });
+    </script>
+  </body>
+</html>

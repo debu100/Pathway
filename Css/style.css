@@ -1,0 +1,2455 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-bo
+  x;
+  font-family: "Poppins", sans-serif;
+}
+
+/********** fixing header to top  ***************/
+
+body::before {
+  display: block;
+  content: "";
+  height: 90px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+::selection {
+  background-color: #f0fdfa;
+  color: #0eb582;
+}
+
+/****** navbar ************/
+
+.navbar {
+  background-color: #e0ffff;
+}
+
+.navbar-brand img {
+  height: 70px;
+}
+
+.nav-item {
+  padding: 0 3px;
+}
+
+.nav-link {
+  font-size: 17px;
+  color: #444;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+
+.nav-link:hover {
+  color: #0eb582;
+}
+
+.nav-link:focus {
+  color: #186688;
+}
+
+.dropdown-item {
+  color: #444;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+.dropdown-item:hover {
+  color: #0eb582;
+  background-color: #f0fdfa;
+}
+
+.dropdown-item:focus {
+  color: #186688;
+}
+
+.navbar-toggler {
+  color: #0eb582;
+}
+
+.navbar-toggler:focus {
+  border: unset;
+  outline: unset;
+  box-shadow: none;
+}
+
+.nav-button {
+  background-color: #0eb582;
+  padding: 10px 20px;
+  border-radius: 8px;
+  color: #fff;
+  text-transform: capitalize;
+  font-family: "Poppins", sans-serif;
+  margin-left: 12px;
+}
+
+.nav-button:hover {
+  color: #444;
+}
+
+.nav-button:active,
+.nav-button:focus {
+  border: unset;
+  outline: unset;
+  box-shadow: none;
+}
+
+/***** navbar ends ********/
+
+/******************* Home page design  ************************/
+
+/********* home banner *************/
+
+.home-banner h1 {
+  font-weight: 700;
+  line-height: 1.3;
+  letter-spacing: 1px;
+}
+
+.home-carousel-caption {
+  text-align: left;
+  margin-bottom: 60px;
+}
+
+.home-carousel-caption p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  line-height: 1.6;
+  margin: 20px 0 25px;
+  color: #fff;
+}
+
+.home-carousel-caption button {
+  padding: 10px 20px;
+  background-color: #f0fdfa;
+  border-radius: 8px;
+  border: none;
+  transition: 0.5s;
+}
+
+.home-carousel-caption button a {
+  color: #0eb582;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.home-carousel-caption button:hover {
+  background-color: #0eb582;
+}
+
+.home-carousel-caption button:hover a {
+  color: #fff;
+}
+
+.home-banner .home-carousel-indicators button {
+  width: 14px;
+  height: 14px;
+  border: none;
+  border-radius: 100%;
+  background-color: #0eb582;
+  margin: 0px 5px;
+  outline: none;
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='1em' viewBox='0 0 448 512'%3E%3C!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --%3E%3Cpath d='M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='1em' viewBox='0 0 448 512'%3E%3C!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --%3E%3Cpath d='M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.2 288 416 288c17.7 0 32-14.3 32-32s-14.3-32-32-32l-306.7 0L214.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z'/%3E%3C/svg%3E");
+}
+/******* home banner ends *************/
+
+/********** home about **************/
+
+.home-about {
+  padding: 70px 0;
+}
+
+.home-about h2 {
+  font-size: 40px;
+  color: #186688;
+  font-weight: 700;
+}
+
+.home-about .about-info {
+  font-family: "Montserrat", sans-serif;
+  color: #444;
+  font-weight: 500;
+  line-height: 1.4;
+  width: 50%;
+  margin: 15px auto 30px;
+}
+
+.home-about-card {
+  padding: 15px 0;
+  border-radius: 8px;
+  transition: 0.6s;
+}
+
+.home-about-card i {
+  font-size: 26px;
+  margin-top: 10px;
+}
+
+.home-about-card h3 {
+  margin: 20px 0;
+  font-weight: 500;
+}
+
+.home-about-card p {
+  margin-bottom: 20px;
+  line-height: 1.6;
+  padding: 0px 4px;
+  font-family: "Montserrat", sans-serif;
+  font-family: 400;
+}
+
+.home-about-button {
+  padding: 10px 20px;
+  background-color: #f0fdfa;
+  border: none;
+  border-radius: 8px;
+  transition: 0.6s;
+  /* margin-bottom: 10px; */
+}
+
+.home-about-button a {
+  text-decoration: none;
+  color: #0eb582;
+  font-family: "Poppins", sans-serif;
+  font-family: 500;
+}
+
+.home-about .home-about-card:hover {
+  transform: translateY(-10px);
+  background-color: #186688 !important;
+  box-shadow: 3px 6px 6px rgba(0, 0, 0, 0.38);
+}
+
+.home-about-card:hover h3 {
+  text-decoration: underline;
+}
+
+.home-about-button:hover {
+  background-color: #0eb582;
+}
+
+.home-about-button:hover a {
+  color: #fff;
+}
+
+/***** home about ends ************/
+
+/************ home courses *************/
+.home-courses {
+  background-color: #f0fdfa;
+  padding: 60px 0;
+}
+
+.home-courses h2 {
+  font-size: 40px;
+  color: #186688;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+.home-courses .home-courses-card {
+  padding-bottom: 10px;
+  border-radius: 8px;
+  transition: 0.6s;
+  overflow: hidden;
+}
+
+.home-courses .home-courses-card img {
+  transition: 0.6s;
+}
+
+.home-courses .home-courses-card img:hover {
+  transform: scale(1.09);
+}
+
+.home-courses .home-courses-card:hover {
+  transform: translateX(10px);
+  cursor: pointer;
+  box-shadow: rgba(13, 38, 76, 0.19) 0px 9px 20px;
+}
+
+.home-courses .home-courses-card span i {
+  margin-right: 8px;
+  color: #f39c12;
+  font-size: 17px;
+}
+
+.home-courses .home-courses-card i {
+  color: #f39c12;
+}
+
+.home-courses .home-courses-card:hover i {
+  color: #0eb582;
+}
+
+.home-courses .home-courses-card:hover span i {
+  color: #0eb582;
+}
+
+.home-courses .home-courses-card p {
+  border-bottom: 1px solid #999;
+  padding-bottom: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  color: #444;
+  margin-bottom: 20px;
+}
+
+.home-courses .home-courses-card h4 {
+  margin-top: 10px;
+  color: #0eb582;
+  font-size: 500;
+}
+
+.home-courses .home-courses-card:hover h4 {
+  color: #186688;
+}
+
+.home-courses .home-course-time {
+  margin-right: 3px;
+  color: #444;
+}
+
+/********* home courses ends ***************/
+
+/************* home campus ***************/
+
+.home-campus {
+  padding: 70px 0;
+}
+
+.home-campus h2 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #186688;
+  margin-bottom: 40px;
+}
+
+.home-camp-card .image-new {
+  height: 268px;
+}
+
+.home-camp-card {
+  position: relative;
+}
+
+.home-camp-card address {
+  font-size: 15px;
+  font-style: italic;
+}
+
+.home-camp-card .overlay {
+  position: absolute;
+  background-color: #e0ffff;
+  top: 65%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  color: #0eb582;
+  transition: 0.6s;
+}
+
+.home-camp-card .overlay:hover {
+  opacity: 1;
+}
+
+/*********** home campus ends **************/
+
+/*********** home testimonials ***************/
+
+.home-testimonial {
+  background-color: #f0fdfa;
+  padding: 70px 0 60px;
+  text-align: center;
+}
+
+.home-testimonial h2 {
+  margin-bottom: 30px;
+  color: #186688;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.home-testimonial .home-carousel-item-student img {
+  border-radius: 100%;
+  width: 110px;
+  height: 110px;
+  object-fit: cover;
+}
+
+.home-testimonial .home-carousel-item-student h3 {
+  color: #0eb582;
+  margin-top: 15px;
+  margin-bottom: 40px;
+}
+
+.home-testimonial .home-carousel-item-student p {
+  width: 60%;
+  margin: 15px auto;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #444;
+}
+
+.home-testimonial .home-carousel-item-student i {
+  color: #f39c12;
+  font-size: 20px;
+  margin: 0 5px;
+  position: relative;
+  bottom: 23px;
+}
+
+.home-testimonial .home-carousel-item-student i:hover {
+  color: #0eb582;
+}
+
+.home-testimonial .carousel-control-prev,
+.home-testimonial .carousel-control-next {
+  display: none;
+}
+
+.home-testimonial .home-student-carousel-indicators button {
+  width: 14px;
+  height: 14px;
+  border: none;
+  border-radius: 100%;
+  background-color: #0eb582;
+  outline: none;
+  margin: 0px 7px;
+  position: relative;
+  top: 20px;
+}
+
+/*********** home testimonials ends ************/
+
+/************* home admission *******************/
+
+.home-admission {
+  background-color: #555;
+  background-image: url("../images/banner2.jpg");
+  padding: 50px 0;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: multiply;
+  background-attachment: fixed;
+}
+
+.home-admission-queries h2 {
+  color: #186688;
+  font-size: 40px;
+  font-weight: 700;
+  padding: 50px 0 20px;
+}
+
+.home-admission-queries p {
+  width: 50%;
+  margin: 0px auto 30px;
+}
+
+.home-admission h3 {
+  line-height: 1.5;
+  margin-bottom: 40px;
+}
+
+.home-admission .ad-button {
+  text-align: center;
+}
+
+.home-admission button {
+  padding: 12px 35px;
+  background-color: #f0fdfa;
+  border-radius: 8px;
+  border: none;
+  transition: 0.5s;
+}
+
+.home-admission button a {
+  color: #0eb582;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+.home-admission button:hover {
+  background-color: #0eb582;
+}
+
+.home-admission button:hover a {
+  color: #fff;
+}
+
+.home-admission input:focus,
+.home-admission textarea:focus {
+  border: 2px solid #0eb582;
+  outline: unset;
+  box-shadow: none;
+}
+
+/*********** home admission ends **************/
+
+/******************************* Home page design ends **************************************/
+
+/*********************** About Us page design starts *****************************/
+
+.about-us-banner {
+  background-image: url("../images/campus-banner-new.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 130px 0;
+}
+.about-us-banner h1 {
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.About-accordian {
+  padding: 70px 0;
+}
+
+.About-accordian h1 {
+  text-align: center;
+  color: #186688;
+  font-family: sans-serif;
+  font-weight: bold;
+  text-transform: capitalize;
+  padding: 48px;
+  font-size: 50px;
+}
+
+.About-accordian .accordion-button {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 1rem 1.25rem;
+  font-size: 1.5rem;
+  color: #2d3333;
+  text-align: left;
+  background-color: #f0fdfa;
+  border: 90p;
+  font-weight: bold;
+}
+
+.About-accordian .accordion {
+  width: 60%;
+  margin: 20px auto;
+}
+
+.About-accordian .accordion-item {
+  background-color: #fff;
+  border: 4px solid rgba(49, 48, 48, 0.07);
+  padding: 5px;
+}
+
+.About-accordian .accordion-body {
+  padding: 1rem 1.25rem;
+  color: #0eb582;
+  font-size: larger;
+}
+
+.about-events {
+  padding: 50px 0;
+  background-color: #f0fdfa;
+}
+
+.about-events img {
+  width: 100%;
+  margin: 12px 0;
+  transition: 0.6s;
+}
+
+.about-events img:hover {
+  transform: scale(1.03);
+}
+
+.about-events h2 {
+  color: #186688;
+  margin-bottom: 30px;
+}
+
+.about-events button {
+  padding: 12px 30px;
+  border: none;
+  border-radius: 8px;
+  background-color: #0eb582;
+  margin-top: 15px;
+}
+
+.about-events button a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.about-testimonial {
+  background-color: #fff;
+}
+
+/*.fa {
+  display: inline-block;
+  color: #fff;
+    margin-left: 226px;}
+  */
+
+/*********************** About Us page design ends *****************************/
+
+/*********************** All Courses page design starts *****************************/
+.course-banner {
+  background-image: url(../images/banner\ 4.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 150px 0;
+}
+
+.course-banner h1 {
+  font-size: 70px;
+  text-align: center;
+  font-weight: bold;
+  color: #fff;
+}
+
+.course-banner h4 {
+  font-size: 30px;
+  color: #dddbc8;
+  font-weight: 500;
+  text-align: center;
+}
+
+.courses {
+  background-color: #f0fdfa;
+  padding: 60px 0;
+}
+
+.courses h2 {
+  font-size: 40px;
+  color: #186688;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+.courses .courses-card {
+  padding-bottom: 10px;
+  border-radius: 8px;
+  transition: 0.6s;
+  overflow: hidden;
+}
+
+.courses .courses-card img {
+  transition: 0.6s;
+}
+
+.courses .courses-card img:hover {
+  transform: scale(1.09);
+}
+
+.courses .courses-card:hover {
+  transform: translateX(10px);
+  cursor: pointer;
+  box-shadow: rgba(13, 38, 76, 0.19) 0px 9px 20px;
+}
+
+.courses .courses-card span i {
+  margin-right: 8px;
+  color: #f39c12;
+  font-size: 17px;
+}
+
+.courses .courses-card i {
+  color: #f39c12;
+}
+
+.courses .courses-card:hover i {
+  color: #0eb582;
+}
+
+.courses .courses-card:hover span i {
+  color: #0eb582;
+}
+
+.courses .courses-card p {
+  border-bottom: 1px solid #999;
+  padding-bottom: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  color: #444;
+  margin-bottom: 20px;
+}
+
+.courses .courses-card h4 {
+  margin-top: 10px;
+  color: #0eb582;
+  font-size: 500;
+}
+
+.courses .courses-card:hover h4 {
+  color: #186688;
+}
+
+.courses .course-time {
+  margin-right: 3px;
+  color: #444;
+}
+
+.course-regi {
+  background-color: #fff;
+  padding: 75px 0;
+}
+
+.course-regi h2 {
+  text-align: left;
+  color: #121846;
+  font-family: "Montserrat", sans-serif;
+  text-decoration: underline;
+  font-size: 40px;
+  letter-spacing: 1px;
+  padding-bottom: 30px;
+}
+
+.course-regi form {
+  box-shadow: 5px 10px 20px 2px rgba(0, 0, 0, 0.4);
+  background-color: #fff;
+  width: 100%;
+  margin: 30px auto;
+  padding: 20px 40px;
+  border-radius: 3%;
+}
+
+.form-group label {
+  width: 27%;
+  font-size: 16px;
+  display: inline-block;
+}
+
+.form-group input,
+.form-group select {
+  width: 68%;
+  padding: 10px 5px;
+  margin-bottom: 20px;
+  display: inline-block;
+  box-shadow: 5px 0 5px 2px rgba(0, 0, 0, 0.4);
+}
+
+.form-group textarea {
+  width: 66%;
+  box-shadow: 5px 0 5px 2px rgba(0, 0, 0, 0.4);
+  margin: 5px;
+  padding: 5px 0;
+}
+
+form input[type="submit"] {
+  display: block;
+  padding: 16px 0;
+  border-radius: 10px;
+  background-color: #d7d7d7;
+  font-size: 18px;
+  text-transform: capitalize;
+  font-style: bold;
+  color: #121846;
+  font-weight: 600;
+  margin: 20px auto;
+  width: 30%;
+  border: 2px solid #121846;
+}
+
+form input[type="submit"]:hover {
+  background-color: #0eb582;
+  color: #fff;
+}
+
+.course-regi img {
+  text-align: right;
+}
+
+.course-campus {
+  padding: 100px 0;
+}
+
+.course-campus h3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  text-decoration: underline;
+  font-size: 30px;
+  text-align: center;
+  color: #121846;
+  margin-bottom: 20px;
+}
+
+.parent-course-campus {
+  display: flex;
+}
+
+.coloum-1 {
+  position: relative;
+}
+
+.coloum-1 .overlay {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.51);
+  top: 0;
+  bottom: 0;
+  left: 0px;
+  right: 0px;
+  opacity: 0;
+  z-index: 1;
+  padding: 130px 120px;
+}
+
+.coloum-1 .overlay:hover {
+  opacity: 1;
+}
+
+.coloum-1 h6 {
+  color: rgb(237, 231, 232);
+  font-size: 20px;
+}
+
+.parent-course-campus {
+  column-count: 4;
+}
+
+.coloum-1 {
+  overflow: hidden;
+}
+.coloum-1 img {
+  width: 100%;
+  transition: all 3s;
+}
+
+.coloum-1 img::hover {
+  transform: scale(1.5);
+}
+/*********************** All Courses page design ends *****************************/
+
+/*********************** Education page design starts *****************************/
+
+.education_banner h2 {
+  margin-bottom: 180px;
+  font-size: 65px;
+  font-weight: 700;
+}
+.edu {
+  color: #00bfff;
+}
+.education_banner .carousel-indicators [data-bs-target] {
+  width: 20px;
+  height: 20px;
+  background-color: #0eb582;
+  border-radius: 50%;
+}
+.education_sec-1 {
+  margin: 50px;
+  text-align: center;
+}
+.education_sec-1 h2 {
+  margin-bottom: 50px;
+  font-size: 60px;
+  color: #186688;
+}
+
+/* .sec-1 .card .pic{
+    padding-top: 100px;
+} */
+.education_sec-1 .pic {
+  overflow: hidden;
+}
+.education_sec-1 .pic img {
+  width: 100%;
+  transition: all 3s;
+}
+.education_sec-1 .pic img:hover {
+  transform: scale(1.5);
+}
+.education_sec-2 {
+  padding: 60px 0;
+  background-color: #f0fdfa;
+}
+.center {
+  text-align: center;
+}
+.education_sec-2 .icon:hover {
+  transform: translateY(-15px);
+  transition: 0.6s;
+}
+
+.education_sec-3 h2 {
+  margin: 50px 0;
+  text-align: center;
+  font-size: 60px;
+  color: #186688;
+}
+
+.education_sec-3 .card-group {
+  padding-bottom: 70px;
+}
+
+/* .education_sec-3 .card-group .card-2 {
+  margin: 0px 15px;
+} */
+
+.education_sec-3 .card-group img {
+  height: 320px;
+  padding-bottom: 10px;
+  border-radius: 8px;
+  transition: 0.6s;
+  overflow: hidden;
+  width: 100%;
+}
+
+/* .education_sec-3 .card img {
+  transition: 0.6s;
+}
+
+.education_sec-3 .card img:hover {
+  transform: scale(1.09);
+} */
+
+.education_sec-3 .education_blog:hover {
+  transition: 0.6s;
+  transform: translateY(10px);
+  cursor: pointer;
+  box-shadow: rgba(13, 38, 76, 0.19) 0px 9px 20px;
+}
+
+/*********************** Education page design ends *****************************/
+
+/*********************** Career page design starts *****************************/
+
+.career-banner h1 {
+  margin-bottom: 175px;
+  font-size: 80px;
+  font-weight: 600;
+}
+
+.blue {
+  color: #00bfff;
+}
+
+.career-banner .carousel-indicators [data-bs-target] {
+  width: 20px;
+  height: 20px;
+  background-color: #0eb582;
+  border-radius: 50%;
+}
+/******* sec1 ************/
+.career-sec1 {
+  background-color: #f0fdfa;
+  padding: 60px 0;
+}
+.ps-md-0 {
+  padding-left: 0 !important;
+  /* margin-left: -150px; */
+}
+.career-sec1 h1 {
+  color: #186688;
+  margin-bottom: 50px;
+  margin-top: 20px;
+}
+.career-sec1 p {
+  font-size: 22px;
+  line-height: 26px;
+  font-weight: 600;
+}
+.career-sec1 .row {
+  margin-top: 50px;
+}
+.career-sec1 h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  margin-left: 20px;
+  font-size: 24px;
+}
+.career-sec1 h3:hover {
+  text-decoration: underline;
+  color: #186688;
+  transform: translateY(-15px);
+  transition: 0.6s;
+}
+.career-sec1 h6 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 17px;
+  line-height: 21px;
+  margin-left: 77px;
+}
+
+.career-sec1 .carrer-side-image {
+  width: 100%;
+}
+
+/******* sec2 ************/
+.career-sec2 {
+  padding: 80px;
+  text-align: center;
+}
+.career-sec2 h1 {
+  color: #186688;
+  margin-bottom: 70px;
+}
+.career-sec2 h4 {
+  color: #186688;
+  margin-top: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  text-transform: none;
+}
+.career-sec2 .career-choose_us:hover {
+  transform: translateY(-15px);
+  transition: 0.6s;
+}
+.career-sec2 .career-choose_us a {
+  text-decoration: none;
+}
+/******* sec3 ************/
+.career-sec3 {
+  padding: 80px;
+  background-color: #f0fdfa;
+}
+.career-sec3 h1 {
+  color: #186688;
+  margin-bottom: 70px;
+  text-align: center;
+}
+.career-sec3 .nav-button {
+  background-color: #0eb582;
+  padding: 3px 5px;
+  border-radius: 8px;
+  color: #fff;
+  text-transform: capitalize;
+  font-family: "Poppins", sans-serif;
+  margin-left: 0px;
+  font-size: 12px;
+  font-weight: 500;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+.career-sec3 .nav-button:hover {
+  color: #444;
+}
+.career-sec3 h5 {
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.career-sec3 .career-assist {
+  position: relative;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  margin: 15px auto 30px;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: #9fa6b2;
+}
+.career-sec3 .career-img {
+  position: absolute;
+  content: "";
+  top: -79px;
+  bottom: 0;
+  right: 2px;
+  left: 347px;
+}
+.career-sec3 .career-img1 {
+  position: absolute;
+  content: "";
+  top: -54px;
+  bottom: 0;
+  right: 0;
+  left: 330px;
+}
+.career-sec3 .career-assist:hover {
+  /* transform: translateY(-15px);
+  transition: 0.6s; */
+  transform: translateX(10px);
+  cursor: pointer;
+  box-shadow: rgb(13 38 76 / 19%) 0px 9px 20px;
+}
+
+/******* sec3 ************/
+.career-sec4 {
+  padding: 80px;
+  text-align: center;
+}
+.career-sec4 h1 {
+  color: #186688;
+  margin-bottom: 70px;
+  text-align: center;
+}
+.m-top {
+  margin-top: 35px;
+}
+.career-sec4 .career-Company:hover {
+  transform: translateY(-15px);
+  transition: 0.6s;
+}
+
+/*********************** Career page design ends *****************************/
+
+/*********************** Admission page design starts *****************************/
+
+.ad-banner {
+  background-image: url("../images/ad-why.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 120px 0;
+}
+
+.ad-banner button {
+  padding: 12px 25px;
+  border: none;
+  border-radius: 8px;
+  background-color: #f0fdfa;
+}
+
+.ad-banner button a {
+  text-decoration: none;
+  color: #0eb582;
+}
+
+.ad-banner button:hover {
+  background-color: #0eb582;
+}
+
+.ad-banner button:hover a {
+  color: #fff;
+}
+
+.ad-features {
+  padding: 70px 0;
+}
+
+.ad-features h2 {
+  font-size: 40px;
+  color: #186688;
+}
+
+.ad-features h3 {
+  color: #186688;
+  margin-bottom: 12px;
+  font-size: 27px;
+}
+
+.ad-features p {
+  color: #444;
+}
+
+.ad-features img {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  margin: 35px 0 20px;
+}
+
+.ad-form {
+  background-color: #666;
+  background-image: url("../images/final4.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 130px 0;
+  background-blend-mode: multiply;
+  background-attachment: fixed;
+}
+
+.ad-form-heading h2 {
+  font-size: 50px;
+  color: #186688;
+  text-align: center;
+  margin: 40px 0;
+}
+
+.ad-form form {
+  box-shadow: 5px 10px 20px 2px rgba(0, 0, 0, 0.4);
+  background-color: #fff;
+  width: 100%;
+  margin: 30px auto;
+  padding: 20px 40px;
+  border-radius: 3%;
+}
+
+/*********************** Admission page design ends *****************************/
+
+/*********************** Institute page design starts *****************************/
+
+.institution-banner h1 {
+  font-weight: 700;
+  line-height: 1.3;
+  letter-spacing: 1px;
+}
+
+.institution-banner h2 {
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.institution-carousel-caption {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.institution-carousel-caption p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  line-height: 1.6;
+  margin: 20px 0 25px;
+}
+
+.institution-carousel-caption button {
+  padding: 10px 20px;
+  background-color: #f0fdfa;
+  border-radius: 8px;
+  border: none;
+  transition: 0.5s;
+}
+
+.institution-carousel-caption button a {
+  color: #0eb582;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.institution-carousel-caption button:hover {
+  background-color: #0eb582;
+}
+
+.institution-carousel-caption button:hover a {
+  color: #fff;
+}
+
+.institution-banner .institution-carousel-indicators button {
+  width: 14px;
+  height: 14px;
+  border: none;
+  border-radius: 100%;
+  background-color: #0eb582;
+  margin: 0px 5px;
+  outline: none;
+}
+
+/******* institution banner ends *************/
+
+/********** institution section-1 starts ************/
+
+.institution-section-1 h3 {
+  margin-left: 137px;
+  /* text-align: center; */
+  color: white;
+  font-weight: 700;
+}
+
+.institution-section-1-heading {
+  background-color: #337ab7;
+  padding: 10px 0;
+}
+
+.institution-section-1 img {
+  width: 60%;
+  border-radius: 60%;
+}
+
+.institution-section-1 .sec-1 {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.institution-section-1 h5 {
+  /* margin-left: 98px; */
+  padding-top: 20px;
+  font-size: 22px;
+  /* text-align: center; */
+}
+
+.institution-section-1 h6 {
+  /* margin-left: 68px; */
+  padding-top: 5px;
+  font-size: 18px;
+  margin-bottom: 70px;
+  /* text-align: center; */
+}
+
+.institution-section-1 .box-1 {
+  border: 2px solid #186688;
+  padding: 20px 25px;
+  width: 36%;
+  height: 300px;
+  margin-top: 35px;
+  text-align: left;
+}
+
+.institution-section-1 .box-1 p {
+  font-size: 24px;
+  line-height: 30px;
+  margin-bottom: 30px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.institution-section-1 .box-1 a {
+  text-decoration: underline;
+  font-size: 24px;
+}
+
+/* institution section-1 ends  */
+
+/* section-2 starts */
+
+/* .institution-section-2 {
+ padding: 0 auto;
+} */
+
+.institution-section-2 h3 {
+  text-align: center;
+  color: white;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.institution-section-2-heading {
+  background-color: #337ab7;
+  padding: 10px 0;
+}
+
+.institution-camp-card {
+  position: relative;
+  /* overflow: hidden;
+  column-count: 5; */
+}
+
+/* .institution-camp-card img {
+  width: 100%;
+} */
+
+.institution-camp-card address {
+  font-size: 15px;
+  font-style: italic;
+}
+
+.institution-camp-card .overlay {
+  position: absolute;
+  background-color: #e0ffff;
+  top: 60%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  color: #0eb582;
+  transition: 0.6s;
+}
+
+.institution-camp-card .overlay:hover {
+  opacity: 1;
+}
+
+.institution-camp-card .card-title {
+  margin-bottom: 3px;
+}
+
+.institution-section-2 h4 {
+  font-size: 20px;
+}
+
+/* section-2 ends */
+
+.form-group-in {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.institution-section-3 h3 {
+  font-size: 30px;
+  margin-top: 50px;
+}
+
+.institution-section-3 button {
+  padding: 10px 20px;
+  background-color: #f0fdfa;
+  border-radius: 8px;
+  border: none;
+  transition: 0.5s;
+  margin: 50px 0;
+}
+
+.institution-section-3 button a {
+  color: #0eb582;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.institution-section-3 button:hover {
+  background-color: #0eb582;
+}
+
+.institution-section-3 button a:hover {
+  color: #fff;
+}
+
+.institution-section-3-box {
+  text-align: center;
+}
+
+/*********************** Institute page design ends *****************************/
+
+/*********************** Contact page design starts *****************************/
+
+.contact-banner h1 {
+  font-weight: 700;
+  line-height: 1.3;
+  letter-spacing: 1px;
+}
+
+.contact-carousel-caption {
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+/* .contact-carousel-caption p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  line-height: 1.6;
+  margin: 20px 0 25px;
+} */
+
+/* .contact-carousel-caption button {
+  padding: 10px 20px;
+  background-color: #f0fdfa;
+  border-radius: 8px;
+  border: none;
+  transition: 0.5s;
+}
+
+.contact-carousel-caption button a {
+  color: #0eb582;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.contact-carousel-caption button:hover {
+  background-color: #0eb582;
+}
+
+.contact-carousel-caption button:hover a {
+  color: #fff;
+} */
+
+.contact-banner .contact-carousel-indicators button {
+  width: 14px;
+  height: 14px;
+  border: none;
+  border-radius: 100%;
+  background-color: #0eb582;
+  margin: 0px 5px;
+  outline: none;
+}
+
+/********** form start**************/
+
+.contact {
+  position: relative;
+  min-height: 100vh;
+  padding: 50px 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.contact .content {
+  /* max-width: 800px; */
+  text-align: center;
+}
+.contact .content h2 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #186688;
+}
+.contact .content p {
+  font-weight: 300;
+  content: #444;
+}
+.container1 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+.container1 .contactInfo {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+.container1 .contactInfo .box {
+  position: relative;
+  padding: 20px 0;
+  display: flex;
+}
+
+.container1 .contactInfo .box i {
+  min-width: 60px;
+  height: 60px;
+  background: #186688;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 22px;
+}
+
+.container1 .contactInfo .box .text {
+  display: flex;
+  margin-left: 20px;
+  font-size: 16px;
+  flex-direction: column;
+  font-weight: 300;
+}
+
+.container1 .contactInfo .box .text h3 {
+  font-weight: 500;
+  color: #186688;
+}
+.contactForm {
+  width: 35%;
+  padding: 40px;
+  background: #fff;
+}
+.contactForm h2 {
+  font-size: 30px;
+  color: #186688;
+  font-weight: 700;
+}
+.contactForm .inputBox {
+  width: 100%;
+  position: relative;
+  margin-top: 10px;
+}
+
+.contactForm .inputBox input,
+.contactForm .inputBox textarea {
+  width: 100%;
+  padding: 5px 0;
+  font-size: 16px;
+  margin: 10px 0;
+  border: none;
+  border-bottom: 2px solid#333;
+  outline: none;
+  resize: none;
+}
+
+.contactForm .inputBox span {
+  position: absolute;
+  left: 0;
+  padding: 5px 0;
+  font-size: 16px;
+  margin: 10px 0;
+  pointer-events: none;
+  transition: 0.5s;
+  color: #444;
+}
+.contactForm .inputBox input:focus ~ span,
+.contactForm .inputBox input:valid ~ span,
+.contactForm .inputBox textarea:focus ~ span,
+.contactForm .inputBox textarea:valid ~ span {
+  color: #0eb582;
+  font-size: 12px;
+  transform: translateY(-20px);
+}
+
+.contactForm .inputBox input[type="submit"] {
+  width: 100px;
+  background: #0eb582;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 8px;
+  text-transform: capitalize;
+}
+
+/*********************** Contact page design ends *****************************/
+
+/********** footer ***************/
+
+footer {
+  background-color: #f0fdfa;
+  padding: 60px 0;
+  position: relative;
+}
+
+footer img {
+  height: 90px;
+  margin-bottom: 30px;
+}
+
+footer .footer-links-top-1-1,
+footer .footer-links-top-2-2,
+footer .footer-links-top-3-3,
+footer .footer-links-top-4-4 {
+  border-right: 2px solid #444;
+}
+
+footer .footer-links a {
+  text-transform: uppercase;
+  color: #444;
+  font-size: 18px;
+  font-weight: 700;
+  margin: 0 15px;
+  text-decoration: none;
+}
+
+footer .footer-links:hover a {
+  color: #0eb582;
+}
+
+footer i {
+  color: #fff;
+  margin: 35px 15px 30px;
+  font-size: 20px;
+  background-color: #186688;
+  padding: 14px 16px;
+  border-radius: 100%;
+}
+
+footer i:hover {
+  background-color: #0eb582;
+}
+
+footer p {
+  color: #444;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 10px;
+}
+
+footer p span {
+  color: #0eb582;
+}
+
+/************ footer ends *************/
+
+/********** responsive design starts *******************/
+
+/***** responsive design for Home page *********/
+
+/********** fixing header to top for mobile  ***************/
+
+@media (max-width: 767px) {
+  body::before {
+    display: block;
+    content: "";
+    height: 60px;
+  }
+}
+
+/********** fixing header to top for mobile ends  ***************/
+
+/* media queries for navbar */
+
+/* for tablet */
+@media (min-width: 767px) and (max-width: 991px) {
+  .nav-button {
+    margin-left: 0;
+  }
+
+  .navbar-nav {
+    text-align: center;
+    margin-top: 12px;
+  }
+
+  .navbar-collapse {
+    text-align: center;
+  }
+}
+/* for tablet ends */
+
+/* for mobile */
+@media (max-width: 767px) {
+  .nav-button {
+    margin-left: 0;
+  }
+
+  .navbar-brand img {
+    height: 40px;
+  }
+
+  .navbar-nav {
+    text-align: center;
+    margin-top: 12px;
+  }
+
+  .navbar-collapse {
+    text-align: center;
+  }
+}
+/* for mobile ends */
+
+/* media queries for navbar ends */
+
+/* media queries for home banner section */
+
+/* for tablet */
+@media (min-width: 767px) and (max-width: 991px) {
+  .home-carousel-caption {
+    margin-bottom: 20px;
+  }
+}
+
+/* for tablet ends */
+
+/* for mobile */
+@media (max-width: 767px) {
+  .home-banner h1 {
+    font-size: 15px;
+    margin-bottom: 5px;
+  }
+
+  .home-carousel-caption {
+    margin-bottom: 5px;
+    text-align: center;
+  }
+
+  /* .home-carousel-caption p {
+    margin: 0;
+    font-size: 10px;
+    font-weight: 400;
+    width: 100%;
+    line-height: 1.2;
+    margin-top: 10px;
+  } */
+
+  .home-carousel-caption button {
+    padding: 5px 12px;
+    margin-top: 6px;
+  }
+
+  .home-carousel-caption button a {
+    font-size: 12px;
+    font-weight: 400;
+  }
+
+  .home-banner .home-carousel-indicators button {
+    width: 10px;
+    height: 10px;
+    border: none;
+    border-radius: 100%;
+    background-color: #0eb582;
+    margin: 0px 5px;
+    outline: none;
+  }
+}
+
+@media (min-width: 500px) and (max-width: 766px) {
+  .home-banner h1 {
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
+
+  .home-carousel-caption {
+    margin-bottom: 50px;
+  }
+
+  .home-carousel-caption button {
+    padding: 8px 19px;
+    background-color: #f0fdfa;
+    border-radius: 8px;
+    border: none;
+    transition: 0.5s;
+  }
+
+  .home-carousel-caption button a {
+    color: #0eb582;
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 500;
+  }
+}
+/* for mobile ends */
+
+/* media queries for home banner section ends */
+
+/* media queries for home-about*/
+
+/* for tablet */
+
+@media (min-width: 767px) and (max-width: 991px) {
+  .home-about {
+    padding: 60px 0;
+  }
+
+  .home-about .about-info {
+    width: 100%;
+    font-weight: 500;
+  }
+
+  .home-about-card {
+    margin: 12px 0;
+  }
+}
+/* for tablet ends */
+
+/* for mobile */
+@media (max-width: 767px) {
+  .home-about {
+    padding: 50px 0;
+  }
+
+  .home-about h2 {
+    font-size: 32px;
+  }
+
+  .home-about .about-info {
+    width: 100%;
+    font-weight: 500;
+  }
+
+  .home-about-card {
+    margin: 12px 0;
+  }
+
+  .home-about-card p {
+    padding: 0;
+    font-size: 15px;
+  }
+}
+/* for mobile ends */
+
+/* media queries for home-about ends*/
+
+/* media queries for home-courses */
+
+/* for tablet */
+
+@media (min-width: 767px) and (max-width: 991px) {
+  .home-courses .home-course-time {
+    font-size: 14px;
+  }
+}
+
+/* for tablet ends */
+
+/* for mobile */
+
+@media (max-width: 767px) {
+  .home-courses h2 {
+    font-size: 29px;
+  }
+
+  .home-courses .home-courses-card:hover {
+    transform: translateY(-10px);
+  }
+
+  .home-courses .home-course-time {
+    font-size: 14px;
+  }
+}
+
+/* for mobile ends */
+
+/* media queries for home-courses ends */
+
+/* media queries for home campus */
+
+/* for tablet */
+
+@media (min-width: 767px) and (max-width: 991px) {
+  .home-camp-card {
+    margin: 15px 0;
+  }
+}
+
+/* for tablet ends */
+
+/* for mobile */
+
+@media (max-width: 767px) {
+  .home-campus {
+    padding: 70px 0 50px;
+  }
+
+  .home-campus h2 {
+    font-size: 29px;
+  }
+
+  .home-camp-card {
+    margin: 12px 0;
+  }
+
+  .home-camp-card address {
+    font-size: 14px;
+  }
+}
+
+/* for mobile ends */
+
+/* media queries for home campus ends */
+
+/* media queries for home testimonial */
+
+/* for tablet */
+
+@media (min-width: 767px) and (max-width: 991px) {
+  .home-testimonial .home-carousel-item-student p {
+    width: 100%;
+  }
+}
+/* for tablet ends */
+
+/* for mobile */
+
+@media (max-width: 767px) {
+  .home-testimonial h2 {
+    font-size: 29px;
+  }
+
+  .home-testimonial .home-carousel-item-student p {
+    width: 95%;
+  }
+
+  .home-testimonial .home-carousel-item-student img {
+    width: 90px;
+    height: 90px;
+  }
+}
+/* for mobile ends */
+
+/* media queries for home testimonial ends */
+
+/* media queries for home admission */
+
+/* for tablet */
+
+@media (min-width: 767px) and (max-width: 991px) {
+  .home-admission-queries p {
+    width: 80%;
+    font-size: 14px;
+  }
+
+  .home-admission input {
+    margin: 10px 0;
+  }
+}
+
+/* for tablet ends */
+
+/* for mobile */
+
+@media (max-width: 767px) {
+  .home-admission-queries h2 {
+    font-size: 29px;
+  }
+
+  .home-admission-queries p {
+    width: 100%;
+    font-size: 14px;
+  }
+
+  .home-admission input {
+    margin: 10px 0;
+  }
+
+  /* for mobile ends */
+}
+
+/* media queries for home admission ends */
+
+/***** responsive design for Home page ends *********/
+
+/***** responsive design for About us page *********/
+
+/***** responsive design for About us page ends *********/
+
+/***** responsive design for All Courses page *********/
+
+@media only screen and (max-width: 436px) {
+  .course-regi img {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  form input[type="submit"] {
+    padding: 10px 0;
+    width: 45%;
+  }
+}
+
+/* @media only screen and (max-width: 992px) {
+  .parent-course-campus .coloum-1 img {
+    margin-top: 20px;
+  }
+  .parent-course-campus .coloum-1 .overlay {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.51);
+    top: 20px;
+    bottom: 1px;
+    left: 0px;
+    right: 0px;
+    opacity: 0;
+    z-index: 1;
+    padding: 130px 120px;
+  }
+
+  .parent-course-campus .coloum-1 .overlay:hover {
+    opacity: 1;
+  }
+}
+
+@media (min-width: 993px) and (max-width: 1270px) {
+  .parent-course-campus .coloum-1 .overlay {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.51);
+    top: 0px;
+    bottom: 1px;
+    left: 0px;
+    right: 0px;
+    opacity: 0;
+    z-index: 1;
+    padding: 90px;
+  }
+
+  .parent-course-campus .coloum-1 .overlay:hover {
+    opacity: 1;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 991px) {
+  .parent-course-campus .coloum-1 .overlay {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.51);
+    top: 20px;
+    bottom: 1px;
+    left: 0px;
+    right: 0px;
+    opacity: 0;
+    z-index: 1;
+    padding: 150px 140px;
+  }
+
+  .parent-course-campus .coloum-1 .overlay:hover {
+    opacity: 1;
+  }
+
+  @media (min-width: 380px) and (max-width: 766px) {
+    .parent-course-campus .coloum-1 .overlay {
+      position: absolute;
+      background-color: rgba(0, 0, 0, 0.51);
+      top: 20px;
+      bottom: 1px;
+      left: 0px;
+      right: 0px;
+      opacity: 0;
+      z-index: 1;
+      padding: 200px;
+    }
+
+    .parent-course-campus .coloum-1 .overlay:hover {
+      opacity: 1;
+    }
+  }
+} */
+
+/***** responsive design for All Courses page ends *********/
+
+/***** responsive design for Education page *********/
+
+/***** responsive design for Education page ends *********/
+
+/***** responsive design for Career page *********/
+
+@media only screen and (max-width: 992px) {
+  .career-sec2 .career-choose_us img {
+    margin-top: 25px;
+  }
+}
+@media only screen and (max-width: 912px) {
+  .career-banner h1 {
+    font-size: 45px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .career-banner h1 {
+    display: none;
+  }
+
+  .career-sec3 .carrer-card-img {
+    display: none;
+  }
+}
+
+/***** responsive design for Career page ends *********/
+
+/***** responsive design for Admission page *********/
+
+/***** responsive design for Admission page ends *********/
+
+/***** responsive design for Institute page *********/
+
+/* media queries for institution banner section */
+
+/* for tablet */
+@media (min-width: 767px) and (max-width: 991px) {
+  .institution-carousel-caption {
+    margin-bottom: 20px;
+  }
+
+  .institution-carousel-caption h2 {
+    font-size: 20px;
+  }
+
+  .institution-carousel-caption h1 {
+    font-size: 24px;
+  }
+
+  .institution-carousel-caption p {
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .institution-carousel-caption button {
+    padding: 5px 10px;
+  }
+
+  .institution-carousel-caption button a {
+    font-size: 14px;
+  }
+}
+
+/* for tablet ends */
+
+/* for mobile */
+@media (max-width: 767px) {
+  .institution-banner h1 {
+    font-size: 15px;
+    margin-bottom: 5px;
+  }
+
+  .institution-banner h2 {
+    font-size: 14px;
+    padding-top: 15px;
+  }
+
+  .institution-carousel-caption {
+    margin-bottom: 5px;
+    text-align: center;
+  }
+
+  /* .institution-carousel-caption p {
+      margin: 0;
+      font-size: 10px;
+      font-weight: 400;
+      width: 100%;
+      line-height: 1.2;
+      margin-top: 10px;
+    } */
+
+  .institution-carousel-caption button {
+    padding: 5px 10px;
+    margin-top: 6px;
+  }
+
+  .institution-carousel-caption button a {
+    font-size: 10px;
+    font-weight: 400;
+  }
+
+  .institution-banner .institution-carousel-indicators button {
+    width: 8px;
+    height: 8px;
+    border: none;
+    border-radius: 100%;
+    background-color: #0eb582;
+    margin: 0px 5px;
+    outline: none;
+  }
+}
+
+@media (min-width: 500px) and (max-width: 766px) {
+  .institution-banner h1 {
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
+
+  .institution-carousel-caption {
+    margin-bottom: 50px;
+  }
+
+  .institution-carousel-caption button {
+    padding: 8px 19px;
+    background-color: #f0fdfa;
+    border-radius: 8px;
+    border: none;
+    transition: 0.5s;
+  }
+
+  .institution-carousel-caption button a {
+    color: #0eb582;
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 500;
+  }
+}
+
+/* for mobile ends */
+
+/* media queries for institution section-1 starts */
+
+@media (max-width: 360px) and (max-width: 800px) {
+  .institution-section-1 .box-1 p {
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  .institution-section-1 h3 {
+    font-size: 20px;
+  }
+}
+
+/* media queries for institution section-1 ends */
+
+@media (max-width: 767px) {
+  .institution-section-1 .sec-1 img {
+    width: 30%;
+  }
+
+  .institution-section-1 .sec-1 {
+    text-align: center;
+  }
+
+  .institution-section-1 .box-1 {
+    text-align: center;
+    width: 100%;
+    height: 250px;
+  }
+
+  .institution-section-1 h6 {
+    margin-bottom: 0;
+  }
+
+  .institution-section-2 h3 {
+    font-size: 20px;
+    font-weight: 400;
+  }
+}
+
+/* media queries for institution campus */
+
+/* for tablet */
+
+@media (min-width: 767px) and (max-width: 991px) {
+  .institution-camp-card {
+    margin: 15px 0;
+  }
+}
+
+/* for tablet ends */
+
+/* for mobile */
+
+@media (max-width: 767px) {
+  .institution-section-2 {
+    padding: 70px 0 50px;
+  }
+
+  .institution-section-2 h3 {
+    font-size: 29px;
+  }
+
+  .institution-camp-card {
+    margin: 12px 0;
+  }
+
+  .institution-camp-card address {
+    font-size: 14px;
+  }
+
+  .institution-section-2-heading {
+    margin-bottom: 30px;
+  }
+
+  .institution-camp-card .overlay {
+    position: absolute;
+    background-color: #e0ffff;
+    top: 60%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    color: #0eb582;
+    transition: 0.6s;
+  }
+
+  .institution-camp-card .overlay:hover {
+    opacity: 1;
+  }
+}
+
+/***** responsive design for Institute page ends *********/
+
+/***** responsive design for Contact page *********/
+
+/* media queries for contact banner section */
+
+/* for tablet */
+@media (min-width: 767px) and (max-width: 991px) {
+  .contact-carousel-caption {
+    margin-bottom: 20px;
+  }
+}
+
+/* for tablet ends */
+
+/* for mobile */
+@media (max-width: 767px) {
+  .contact-carousel-caption {
+    margin-bottom: 5px;
+    text-align: center;
+  }
+
+  .contact-carousel-caption button {
+    padding: 5px 12px;
+    margin-top: 6px;
+  }
+
+  /* .contact-carousel-caption button a {
+    font-size: 12px;
+    font-weight: 400; */
+}
+
+.contact-banner .contact-carousel-indicators button {
+  width: 10px;
+  height: 10px;
+  border: none;
+  border-radius: 100%;
+  background-color: #0eb582;
+  margin: 0px 5px;
+  outline: none;
+}
+
+@media (min-width: 500px) and (max-width: 766px) {
+  .contact-banner h1 {
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
+
+  .contact-carousel-caption {
+    margin-bottom: 50px;
+  }
+
+  .contact-carousel-caption button {
+    padding: 8px 19px;
+    background-color: #f0fdfa;
+    border-radius: 8px;
+    border: none;
+    transition: 0.5s;
+  }
+
+  .contact-carousel-caption button a {
+    color: #0eb582;
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 500;
+  }
+}
+
+@media (max-width: 991px) {
+  .contact {
+    padding: 50px;
+  }
+  .container1 {
+    flex-direction: column;
+  }
+  .container1 .contactInfo {
+    margin-bottom: 40px;
+  }
+}
+/* for mobile ends */
+
+/******* contact banner ends *************/
+
+/***** responsive design for Contact page ends *********/
+
+/***** responsive design for footer  *********/
+
+/* media queries for footer */
+
+/* for mobile */
+
+@media (max-width: 767px) {
+  footer img {
+    height: 70px;
+  }
+
+  footer .footer-links a {
+    font-size: 10px;
+    font-weight: 700;
+    margin: 0 8px;
+  }
+
+  footer i {
+    margin: 35px 8px 30px;
+    font-size: 16px;
+    padding: 10px 14px;
+  }
+
+  footer p {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 355px) {
+  footer .footer-links a {
+    font-size: 9px;
+    font-weight: 700;
+    margin: 0 8px;
+  }
+}
+
+/* for mobile ends */
+
+/* media queries for footer ends */
+
+/***** responsive design for footer ends *********/
+
+/********** responsive design ends *******************/
